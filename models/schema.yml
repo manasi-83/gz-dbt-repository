@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw data
+    schema: sincere-amulet-449110-j1.gz_raw_data
+    tables:
+     - name: sale
+       identifier: sincere-amulet-449110-j1.gz_raw_data.raw_gz_sales
+     - name: product
+       identifier : sincere-amulet-449110-j1.gz_raw_data.raw_gz_product
+     - name: ship
+       identifier: sincere-amulet-449110-j1.gz_raw_data.raw_ship
