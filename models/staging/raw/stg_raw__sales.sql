@@ -11,9 +11,9 @@ renamed as (
     select
         date_date,
         orders_id,
-        pdt_id as products_id,
+        pdt_id,
         revenue,
-        quantity
+        CAST(quantity AS INT64) AS quantity
 
     from source
 
