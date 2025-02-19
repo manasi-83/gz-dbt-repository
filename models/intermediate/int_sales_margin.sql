@@ -1,6 +1,7 @@
 
 SELECT 
     s.orders_id,
+    s.date_date,
     s.pdt_id,
     CAST(s.quantity AS INT64) AS quantity,
     s.revenue,
