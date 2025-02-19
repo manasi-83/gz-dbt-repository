@@ -33,5 +33,12 @@ sources:
            tests:
              - unique
              - not_null
-        
+models:
+  - name: int_orders_margin
+    columns:
+       - name: orders_id
+         tests:
+            - not_null
+            - unique
+           
        
